@@ -16,6 +16,18 @@
           <element id="module-output" name="javawebtest_main" />
           <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" />
+        </element>
       </element>
     </root>
   </artifact>
