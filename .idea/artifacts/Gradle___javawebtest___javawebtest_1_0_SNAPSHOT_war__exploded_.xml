@@ -20,6 +20,8 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: com.alibaba:fastjson:1.2.47" />
+          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Gradle: javax.servlet:servlet-api:2.5" />
           <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.10.RELEASE" />
@@ -28,7 +30,8 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.4/e49a5c0acee8fd66225dc1d031692d132323417f/aspectjrt-1.7.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.7.4/d9d511e417710492f78bb0fb291a629d56bf4216/aspectjweaver-1.7.4.jar" />
         </element>
       </element>
     </root>

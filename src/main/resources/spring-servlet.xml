@@ -20,7 +20,10 @@
     <context:annotation-config/>
 
     <!--扫描控制器-->
-    <context:component-scan base-package="com.java.controller"/>
+    <context:component-scan base-package="com.java"/>
+
+    <!--自动代理设置-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 
     <!-- 启用默认配置 -->
     <mvc:annotation-driven>

@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 
 @Controller
@@ -17,9 +18,9 @@ public class HomeController {
     }
 
     @RequestMapping("/time.json")
-    public @ResponseBody Object time() throws Exception{
-        Thread.sleep(5000);
-        logger.warn("this is log message");;
+    public @ResponseBody Object time(HttpServletResponse response) throws Exception{
+        logger.trace("this is log message");
+        logger.trace(new Date().getTime());
         return new Date();
     }
 }
